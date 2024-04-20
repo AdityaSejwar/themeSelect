@@ -25,6 +25,8 @@ body{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .btn{
     width: 10vw;
@@ -43,6 +45,11 @@ body{
 #btn-3{
     background-color: #232b2b;
     color: #efe5e5;
+}
+#btn-4{
+    background-image: linear-gradient(120deg, #de54a4 0%, #794cc2 50%, #632cba 100%);
+    color: #efe5e5;
+
 }
 .footer{
     display: flex;
